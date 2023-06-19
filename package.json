@@ -1,0 +1,22 @@
+{
+  "name": "@offline-cash/offline-cash-lib",
+  "version": "0.0.12",
+  "description": "Shared library for offline.cash Bitcoin operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "offline-cash",
+    "cryptocurrency"
+  ],
+  "author": "atm@offline.cash",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/shims": "^5.4.0",
+    "axios": "^0.21.1",
+    "bitcoinjs-lib": "5.2.0",
+    "ethers": "^5.4.4"
+  }
+}
